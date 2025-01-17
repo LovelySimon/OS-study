@@ -24,6 +24,7 @@
     <ProjectGuid>{0eaa480a-588c-4d89-9060-c9420ac31420}</ProjectGuid>
     <RootNamespace>数字电路模拟器</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>操作系统实战</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,6 +129,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hanoi-simplec.c" />
+    <ClCompile Include="hanoi.c" />
     <ClCompile Include="logisim.c" />
     <ClCompile Include="logisim.h" />
   </ItemGroup>

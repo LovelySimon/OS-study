@@ -21,5 +21,11 @@
     <ClCompile Include="logisim.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="hanoi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoi-simplec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
